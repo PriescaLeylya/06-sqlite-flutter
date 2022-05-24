@@ -4,8 +4,6 @@ import 'dart:async';
 import 'package:sql/Helpers/dbhelper.dart';
 import 'package:sql/Pages/entryForm.dart';
 import 'package:sql/models/item.dart';
-
-//pendukung program asinkron
 class Home extends StatefulWidget {
   @override
   HomeState createState() => HomeState();
@@ -22,7 +20,7 @@ class HomeState extends State<Home> {
     }
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Daftar Item -> PRIESCA LEYLYA SYAFITRI - 2031710176'),
+        title: const Text('Daftar Item -> PRIESCA LEYLYA SYAFITRI 2031710176'),
         backgroundColor: Colors.pink,
       ),
       body: Column(children: [
@@ -84,6 +82,8 @@ class HomeState extends State<Home> {
                 const SizedBox(
                   height: 5.0,
                 ),
+                Text("Stock : " + itemList[index].stock.toString()),
+                Text("Code : " + itemList[index].code),
               ],
             ),
             trailing: GestureDetector(

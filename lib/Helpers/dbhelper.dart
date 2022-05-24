@@ -3,7 +3,6 @@ import 'dart:async';
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 import '/models/item.dart';
-
 class DbHelper {
   static DbHelper _dbHelper;
   static Database _database;
@@ -11,7 +10,7 @@ class DbHelper {
   Future<Database> initDb() async {
     //untuk menentukan nama database dan lokasi yg dibuat
     Directory directory = await getApplicationDocumentsDirectory();
-    String path = directory.path + 'priesca.db';
+    String path = directory.path + 'aulia.db';
 
     //create, read databases
     var itemDatabase = openDatabase(path, version: 4, onCreate: _createDb);
