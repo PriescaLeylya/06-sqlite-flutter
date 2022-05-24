@@ -21,6 +21,12 @@ Tampilan Home
 Tampilan tambah item
 ![tambah item](https://user-images.githubusercontent.com/89897038/161668059-1c09c686-4131-4b93-bbec-88323cfcca78.jpeg)
 
+Tampilan Tambah Item Baru
+![tmbh item baru](https://user-images.githubusercontent.com/89897038/169932139-f6558b33-bab3-4fdd-992a-6650f7dc2765.jpeg)
+
+Tampilan detail
+![detail](https://user-images.githubusercontent.com/89897038/169932152-fbceeb77-d77e-4742-9788-039bf4e11df1.jpeg)
+
 Tampilan daftar item
 ![daftar item](https://user-images.githubusercontent.com/89897038/161668075-17dd73f0-3e94-4372-b83f-5c86fc828490.jpeg)
 
